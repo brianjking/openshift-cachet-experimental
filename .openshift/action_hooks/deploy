@@ -10,7 +10,7 @@ fi
  
 unset GIT_DIR 
 cd $OPENSHIFT_REPO_DIR/php 
-/usr/bin/php $OPENSHIFT_DATA_DIR/composer.phar install
+#/usr/bin/php $OPENSHIFT_DATA_DIR/composer.phar install
 
 /usr/bin/php $OPENSHIFT_REPO_DIR/php/app/console cache:clear --env=dev
 
